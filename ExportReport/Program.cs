@@ -19,7 +19,7 @@ namespace ExportReport
                 db.ExportHistory.AddRange(new FakeDataHelper().GetFakeExports());
                 db.SaveChanges();
             }
-            Application.Run(new Form1());
+            Application.Run(new Exports());
         }
     }
 }
